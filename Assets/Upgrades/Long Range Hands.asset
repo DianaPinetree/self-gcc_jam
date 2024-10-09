@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c34b34484ac74c81b90fa126ce4ccbc6, type: 3}
+  m_Name: Long Range Hands
+  m_EditorClassIdentifier: 
+  _effects:
+  - {fileID: 11400000, guid: 6d5aca2c01a9d854bafa4a4904c91f83, type: 2}
+  description: 'Pick-Up Range Up
+
+    Idk use your feet or something'
+  unique: 0
