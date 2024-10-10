@@ -194,12 +194,14 @@ public class GameController : MonoBehaviour
         }
 
         // Spawn 10,000 enemies
-
+        
         // Set map bounds
         mapWidthMin = -spatialGroupWidth / 2;
         mapWidthMax = spatialGroupWidth / 2;
         mapHeightMin = -spatialGroupHeight / 2;
         mapHeightMax = spatialGroupHeight / 2;
+        
+        FastTrackWave();
     }
 
     void FixedUpdate() // 50 frames per second

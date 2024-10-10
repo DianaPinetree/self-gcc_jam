@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c34b34484ac74c81b90fa126ce4ccbc6, type: 3}
+  m_Name: Day Dreaming
+  m_EditorClassIdentifier: 
+  _effects:
+  - {fileID: 11400000, guid: 55ca226ad2794344887b05ef1cd9b6fc, type: 2}
+  description: 'Accuracy Down
+
+    Wait... I was doing what really? No matter, the
+    cheese in the moon is nice'
+  unique: 0
