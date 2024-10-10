@@ -200,6 +200,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4995594547066504559}
   - component: {fileID: 4995594547066504556}
+  - component: {fileID: 8065437082725506369}
   m_Layer: 0
   m_Name: LevelLoader
   m_TagString: Untagged
@@ -235,3 +236,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd7cf6e9ceeb6d14e901319cd8b3f3c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &8065437082725506369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4995594547066504558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1c9744acbb686547b4b58a07b26bfee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  resolutionChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  allowFullscreen: 1
+  aspectRatioWidth: 4
+  aspectRatioHeight: 3
+  minWidthPixel: 512
+  minHeightPixel: 512
+  maxWidthPixel: 2048
+  maxHeightPixel: 2048

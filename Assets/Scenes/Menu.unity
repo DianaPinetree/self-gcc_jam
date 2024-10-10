@@ -135,7 +135,6 @@ GameObject:
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
   - component: {fileID: 519420030}
-  - component: {fileID: 519420033}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -204,9 +203,9 @@ Camera:
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
-    y: 0.035548687
-    width: 0.9988412
-    height: 0.927357
+    y: 0
+    width: 1
+    height: 1
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 34
@@ -242,29 +241,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &519420033
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 519420028}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c88f5cead0c0b2a4eb05b5900433f8d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_ComponentVersion: 1
-  m_AssetsPPU: 16
-  m_RefResolutionX: 800
-  m_RefResolutionY: 600
-  m_CropFrame: 2
-  m_GridSnapping: 2
-  m_UpscaleRT: 0
-  m_PixelSnapping: 0
-  m_CropFrameX: 0
-  m_CropFrameY: 0
-  m_StretchFill: 0
 --- !u!1 &570487863
 GameObject:
   m_ObjectHideFlags: 0
@@ -1407,5 +1383,32 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8065437082725506369, guid: be166a0f06824f949b65c5db496a625e, type: 3}
+      propertyPath: resolutionChangedEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8065437082725506369, guid: be166a0f06824f949b65c5db496a625e, type: 3}
+      propertyPath: resolutionChangedEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8065437082725506369, guid: be166a0f06824f949b65c5db496a625e, type: 3}
+      propertyPath: resolutionChangedEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 4995594546904726743}
+    - target: {fileID: 8065437082725506369, guid: be166a0f06824f949b65c5db496a625e, type: 3}
+      propertyPath: resolutionChangedEvent.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: be166a0f06824f949b65c5db496a625e, type: 3}
+--- !u!114 &4995594546904726743 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8065437082725506369, guid: be166a0f06824f949b65c5db496a625e, type: 3}
+  m_PrefabInstance: {fileID: 4995594546904726742}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1c9744acbb686547b4b58a07b26bfee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
