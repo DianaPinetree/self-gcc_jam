@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fad4d484e2074ba78875068b4f99bf62, type: 3}
-  m_Name: ProjUp_BasicCard
+  m_Name: ReduceProjs_WellRested
   m_EditorClassIdentifier: 
-  Amount: 0.5
-  addMode: 1
+  Amount: 0.2
+  addMode: 0

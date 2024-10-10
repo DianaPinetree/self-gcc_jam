@@ -12,4 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f1f71e5e1624af2a8c5ab9776c23282, type: 3}
   m_Name: AccuracyUp_BasicCard
   m_EditorClassIdentifier: 
-  Amount: 0.9
+  addMode: 1
+  Amount: -1

@@ -9,8 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fad4d484e2074ba78875068b4f99bf62, type: 3}
-  m_Name: ProjUp_BasicCard
+  m_Script: {fileID: 11500000, guid: 8f1f71e5e1624af2a8c5ab9776c23282, type: 3}
+  m_Name: ReduceAcc_IntrusiveThoughts
   m_EditorClassIdentifier: 
-  Amount: 0.5
-  addMode: 1
+  addMode: 2
+  Amount: 45

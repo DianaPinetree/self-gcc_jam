@@ -9,17 +9,17 @@ public class GameUpgrades : ScriptableObject
 
     public List<PowerUp> GetRandom(HashSet<PowerUp> collected, int count)
     {
-        var available = gameUpgrades.Where(x => !collected.Contains(x) && x.unique); // filter collected uniques
+        var available = gameUpgrades.Where(x => !(collected.Contains(x) && x.unique)).ToList(); // filter collected uniques
         var indexes = new HashSet<PowerUp>();
-        if (count > gameUpgrades.Count)
+        if (count > available.Count)
         {
-            count = gameUpgrades.Count;
+            count = available.Count;
         }
         
         while (indexes.Count < count)
         {
-            int r = Random.Range(0, gameUpgrades.Count);
-            indexes.Add(gameUpgrades[r]);
+            int r = Random.Range(0, available.Count);
+            indexes.Add(available[r]);
         }
 
         return indexes.ToList();
